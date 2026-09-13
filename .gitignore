@@ -1,0 +1,18 @@
+node_modules
+
+# Environment variables — never commit real values.
+# `.env` alone does NOT match .env.test / .env.local, hence the glob.
+.env
+.env.*
+# ...but the templates are meant to be committed.
+!.env.example
+!.env.*.example
+
+generated/prisma
+
+# Winston output — machine-generated, can contain sensitive data
+logs
+
+# Build output
+dist
+coverage

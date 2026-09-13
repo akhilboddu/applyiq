@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "cover_letters" ADD COLUMN     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
