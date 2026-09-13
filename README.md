@@ -16,6 +16,7 @@ The prompt does not include credentials or private business configuration. Confi
 
 - `client/`: React 19, Vite, React Router, React Query, Tailwind CSS, Recharts and dnd-kit.
 - `server/`: Express 5, Prisma/PostgreSQL, authentication, application API, OpenAI integration and Socket.IO.
+- [`course/slides/`](course/slides/): the course introduction and Modules 1–7, with Slidev presentation sources, styles and diagrams.
 - `render.yaml`: Render deployment blueprint.
 - `server/DEPLOYMENT.md`: environment and deployment notes; check them against the current configuration.
 

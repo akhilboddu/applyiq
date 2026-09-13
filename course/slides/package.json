@@ -1,0 +1,27 @@
+{
+  "name": "applyiq-slides",
+  "private": true,
+  "scripts": {
+    "dev:intro": "slidev intro.md --open",
+    "dev:m1": "slidev module-1.md --open",
+    "dev:m2": "slidev module-2.md --open",
+    "dev:m3": "slidev module-3.md --open",
+    "dev:m4": "slidev module-4.md --open",
+    "dev:m5": "slidev module-5.md --open",
+    "dev:m6": "slidev module-6.md --open",
+    "dev:m7": "slidev module-7.md --open",
+    "export:intro": "slidev export intro.md --output exports/intro.pdf",
+    "export:m1": "slidev export module-1.md --output exports/module-1.pdf",
+    "export:m2": "slidev export module-2.md --output exports/module-2.pdf",
+    "export:m3": "slidev export module-3.md --output exports/module-3.pdf",
+    "export:m4": "slidev export module-4.md --output exports/module-4.pdf",
+    "export:m5": "slidev export module-5.md --output exports/module-5.pdf",
+    "export:m6": "slidev export module-6.md --output exports/module-6.pdf",
+    "export:m7": "slidev export module-7.md --output exports/module-7.pdf",
+    "export:all": "npm run export:intro && npm run export:m1 && npm run export:m2 && npm run export:m3 && npm run export:m4 && npm run export:m5 && npm run export:m6 && npm run export:m7"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.14.2",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}

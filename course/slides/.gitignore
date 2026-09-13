@@ -1,0 +1,13 @@
+node_modules/
+dist/
+exports/
+.slidev/
+# Slidev generates this entry during builds.
+index.html
+.DS_Store
+*.swp
+*.swo
+.backup*
+.env
+.env.*
+!.env.example
